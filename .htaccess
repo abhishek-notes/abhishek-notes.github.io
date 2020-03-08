@@ -2,6 +2,3 @@ RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.html [NC,L]
 
-RewriteEngine On
-RewriteCond %{HTTP_HOST} ^abhisheknotes.com [NC]
-RewriteRule ^(.*)$ http://abhisheknotes.com/$1 [L,R=301]
