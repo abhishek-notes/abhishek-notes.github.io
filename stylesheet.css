@@ -47,10 +47,33 @@
 
 @font-face {
   font-family: 'myfontlight';
-  font-weight: 700;
-  font-style: bold;
-  src: url('fonts/thefont/thefont-bold.woff');
+  font-weight: 300;
+  font-style: italic;
+  src: url('fonts/thefont/thefont-bookitalic.woff');
 }
+
+@font-face {
+  font-family: 'myfontlight';
+  font-weight: 500;
+  font-style: italic;
+  src: url('fonts/thefont/thefont-mediumitalic.woff');
+}
+
+@font-face {
+  font-family: 'myfontlight';
+  font-weight: 700;
+  font-style: italic;
+  src: url('fonts/thefont/thefont-bolditalic.woff');
+}
+
+@font-face {
+  font-family: 'myfontlight';
+  font-weight: 900;
+  font-style: italic;
+  src: url('fonts/thefont/thefont-blackitalic.woff');
+}
+
+
 
 /* Fonts addition complete */
 
@@ -66,6 +89,11 @@ body {
 
 strong {
   font-weight: 700;
+}
+
+italic {
+  font-style: italic;
+  font-weight: 300;
 }
 
 h1 {
