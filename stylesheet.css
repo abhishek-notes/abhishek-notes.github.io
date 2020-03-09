@@ -775,6 +775,7 @@ padding-bottom: 30px;
 
 
 .bookscontent ul li{
+  list-style: none;
   font-size: 15px;
 }
 
