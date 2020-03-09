@@ -765,10 +765,7 @@ padding-bottom: 30px;
   padding-top: 50px;
 }
 
-.bookscontent {
 
-
-}
 
 /* .bookscontent ul li{
   font-size: 15px;
@@ -808,7 +805,7 @@ padding-bottom: 30px;
 
 
 
-..ulstylingjourney ul li::before {
+.ulstylingjourney ul li::before {
 content: "•"; 
 color: red;
 display: inline-block; 
