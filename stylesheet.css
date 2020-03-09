@@ -394,6 +394,11 @@ table, th, td {
   padding-left: 5%;
 }
 
+.projectlistcontent ul {
+ list-style: none;
+}
+
+
 .projectlistcontent ul li::before {
   list-style: none; 
   content: icon;
