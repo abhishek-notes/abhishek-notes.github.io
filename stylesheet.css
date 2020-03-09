@@ -395,6 +395,8 @@ table, th, td {
 }
 
 .projectlistcontent ul li::before {
+  list-style: none; 
+  content: icon;
   color: #201f1f;
   display: inline-block;
   margin-left: -2em  ;
@@ -403,7 +405,7 @@ table, th, td {
   text-align: center;
   font-size: 14px;
   padding-top: 20px! important;
-  list-style: none; 
+  
 
 }
 
