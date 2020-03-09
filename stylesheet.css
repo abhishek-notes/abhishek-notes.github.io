@@ -767,7 +767,7 @@ padding-bottom: 30px;
 
 
 
-/* .bookscontent ul li{
+.bookscontent ul li{
   font-size: 15px;
   padding-top: 30px;
   line-height: 35px;
@@ -779,7 +779,7 @@ padding-bottom: 30px;
   color:#413f3f;
   display: inline-block; 
   width: 1em;
-  } */
+  } 
 
 .bookdescriptiontext {
   font-size: 15px;
