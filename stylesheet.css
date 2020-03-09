@@ -47,7 +47,7 @@
 
 @font-face {
   font-family: 'myfontlight';
-  font-weight: 300;
+  /* font-weight: 300; */
   font-style: italic;
   src: url('fonts/Manrope/Manrope-ExtraLight.woff2');
 }
