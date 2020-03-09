@@ -813,6 +813,13 @@ width: 1em;
 } 
 
 
+.ulstylingjourney ul li::before {
+  list-style: none;
+    content: "•";
+    color: red;
+    display: inline-block;
+    width: 1em;
+}
 
 
 
