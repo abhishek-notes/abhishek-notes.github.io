@@ -400,17 +400,19 @@ table, th, td {
 
 
 .projectlistcontent ul li::before {
-  list-style: none; 
+
+  list-style: none;
   content: "•";
   color: #201f1f;
   display: inline-block;
-  margin-left: -2em  ;
+  margin-left: -2em;
   width: 2em;
   align-content: center;
   text-align: center;
   font-size: 14px;
-  padding-top: 20px! important;
+  padding-top: 30px! important;
   
+}
 
 }
 
@@ -775,7 +777,7 @@ padding-bottom: 30px;
 
 
 .bookscontent ul li{
-  list-style: none;
+  
   font-size: 15px;
 }
 
