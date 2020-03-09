@@ -779,7 +779,7 @@ padding-bottom: 30px;
 }
 
 .bookscontent ul li::before {
-  content: none;
+  /* content: none; */
   color:#413f3f;
   display: inline-block; 
   width: 1em;
