@@ -94,7 +94,9 @@ strong {
 italic {
   font-style: italic;
   font-weight: 300;
-}
+  text-align: center;
+
+} 
 
 h1 {
   color:green;
