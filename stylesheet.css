@@ -91,12 +91,12 @@ strong {
   font-weight: 700;
 }
 
-italic {
+/* italic {
   font-style: italic;
   font-weight: 300;
   text-align: center;
 
-} 
+}  */
 
 h1 {
   color:green;
@@ -770,7 +770,7 @@ padding-bottom: 30px;
 
 }
 
-.bookscontent ul li{
+/* .bookscontent ul li{
   font-size: 15px;
   padding-top: 30px;
   line-height: 35px;
@@ -782,7 +782,7 @@ padding-bottom: 30px;
   color:#413f3f;
   display: inline-block; 
   width: 1em;
-  }
+  } */
 
 .bookdescriptiontext {
   font-size: 15px;
@@ -802,7 +802,19 @@ padding-bottom: 30px;
 }
 
 
+.ulstylingjourney ul {
+  list-style: none; 
+}
 
+
+
+..ulstylingjourney ul li::before {
+content: "•"; 
+color: red;
+display: inline-block; 
+width: 1em;
+
+} 
 
 
 
