@@ -834,7 +834,13 @@ width: 1em;
 
 
 
+.introcontentworkpadding
+{
+  padding-left: 5%;
+  padding-right: 5%;
+}
 
+}
 
 
 
@@ -963,6 +969,12 @@ padding-top: 10%;
 }
 
 
+.introcontentworkpadding
+{
+  padding-left: 0%;
+  padding-right: 0%;
+}
+
 }
 
 
@@ -1084,6 +1096,11 @@ padding-top: 10%;
   padding-top: 10%;
   }
   
+  .introcontentworkpadding
+{
+  padding-left: 5%;
+  padding-right: 5%;
+}
   
   }
   
