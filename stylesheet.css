@@ -91,6 +91,11 @@ strong {
   font-weight: 700;
 }
 
+/* italic {
+  font-style: italic;
+  font-weight: 300;
+  text-align: center;
+}  */
 
 h1 {
   color:green;
@@ -110,9 +115,12 @@ a:link {
 }
 
 a:hover {
-
+    /* display: inline-block; */
+    /* height: 0px; */
+    /* background: none; */
     color: #db0042;
     background: #413f3f;
+    /* bottom: -2px; */
     -webkit-transition: all .15s ease-in; 
     transition: all .15s ease-in;
     }
