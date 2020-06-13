@@ -1,85 +1,134 @@
 @charset "UTF-8";
+/* CSS Document */
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/* Body style */
+
 * {
   margin: 0;
   padding: 0; 
 }
+
+/* Added fonts */
+
 @font-face {
   font-family: 'myfontlight';
   src: url('fonts/thefont/thefont-regular.woff');
 }
+
+
 @font-face {
   font-family: 'myfontlight';
   font-weight: 500;
   font-style: Medium;
   src: url('fonts/thefont/thefont-medium.woff');
 }
+
 @font-face {
   font-family: 'myfontlight';
   font-weight: 700;
   font-style: bold;
   src: url('fonts/thefont/thefont-bold.woff');
 }
+
 @font-face {
   font-family: 'myfontlight';
   font-weight: 900;
   font-style: bolder;
   src: url('fonts/thefont/thefont-black.woff');
 }
+
+
+
 @font-face {
     font-family: 'Manrope';
     src: url('fonts/Manrope/manrope-medium.woff');
 }
+
 @font-face {
   font-family: 'myfontlight';
+  /* font-weight: 300; */
   font-style: italic;
   src: url('fonts/Manrope/Manrope-ExtraLight.woff2');
 }
+
 @font-face {
   font-family: 'myfontlight';
   font-weight: 500;
   font-style: italic;
   src: url('fonts/thefont/thefont-mediumitalic.woff');
 }
+
 @font-face {
   font-family: 'myfontlight';
   font-weight: 700;
   font-style: italic;
   src: url('fonts/thefont/thefont-bolditalic.woff');
 }
+
 @font-face {
   font-family: 'myfontlight';
   font-weight: 900;
   font-style: italic;
   src: url('fonts/thefont/thefont-blackitalic.woff');
 }
+
+
+
+/* Fonts addition complete */
+
+/* Body and universal tags styling */
+
 body {
   font-family: 'myfontlight', -apple-system, BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   padding-top: 0%;
   padding-bottom: 0%;
   background-color: #f9f8f1;
+  
 }
+
 strong {
   font-weight: 700;
 }
+
+
 h1 {
   color:green;
    font-family: 'Manrope'; 
 }
+
+
 a {
     text-decoration: none;
     color: #413f3f;
     }
+
 a:link {
     color: #413f3f;
     background: none !important;
+    
 }
+
 a:hover {
+
     color: #db0042;
     background: #413f3f;
     -webkit-transition: all .15s ease-in; 
     transition: all .15s ease-in;
     }
+
+/* ul {
+         list-style: none; 
+         
+    }
+ul li::before {
+    content: "•"; 
+    color: red;
+    display: inline-block; 
+    width: 1em;
+    
+    } */
+
 table, th, td {
       border: 1px solid black;
       border-collapse: collapse;
@@ -87,26 +136,34 @@ table, th, td {
       padding-top: 12px;
       padding-bottom: 12px; 
       text-align: center;
+    
     } 
+
 .introhead {
     font-weight: 300;
     text-align: center;
   }
+
+
 .introheadmain {
   text-align: center;
   font-size: 40px! important;
   padding-top: 13%;
 }
+
 .introheadcontent  {
     color: green;
     text-align: center;    
     font-size: 20px! important;
     padding-bottom: 13%;
 }
+
 .introheadcontent span {
   text-align: center;
   padding-right: 10px;
 }
+
+
 .introcontent {
     color: #201f1f;
     padding-left: 25%;
@@ -115,12 +172,16 @@ table, th, td {
     line-height: 40px;
     font-size: 20px;
   }
+
 .introcontent p {
     margin-bottom: 30px;
   }
+
   img {
     height: 300px; 
   }
+  
+
 .myphoto {
     display: block;
     height: 200px;
@@ -128,18 +189,24 @@ table, th, td {
     margin-left: auto;
     margin-right: auto;
  }
+
 .sociallinks span{
         color: #000 !important;
         margin-bottom: 30px;
         font-size: 20px! important;
         padding-right: 30px;
   }
+
 .sociallinks span a {
       color: green! important;
   }
+
+
 #footer {
   padding-top: 5%;  
 }
+/* Scroll container chevron styling and function  */
+
 .scrollcontainer {
   display: flex;
   justify-content: center;
@@ -149,7 +216,9 @@ table, th, td {
   height: 100%; 
   padding-top: 75px;
   padding-bottom: 75px;
+
 }
+
 .chevron {
   position: absolute;
   width: 20px;
@@ -158,12 +227,15 @@ table, th, td {
   transform: scale3d(0.5, 0.5, 0.5);
   animation: move 3s ease-out infinite;
 }
+
 .chevron:first-child {
   animation: move 3s ease-out 1s infinite;
 }
+
 .chevron:nth-child(2) {
   animation: move 3s ease-out 2s infinite;
 }
+
 .chevron:before,
 .chevron:after {
   content: ' ';
@@ -173,18 +245,22 @@ table, th, td {
   width: 51%;
   background: #979797;
 }
+
 .chevron:before {
   left: 0;
   transform: skew(0deg, 30deg);
 }
+
 .chevron:after {
   right: 0;
   width: 50%;
   transform: skew(0deg, -30deg);
 }
+
 @keyframes move {
   25% {
     opacity: 1;
+
   }
   33% {
     opacity: 1;
@@ -199,6 +275,10 @@ table, th, td {
     transform: translateY(55px) scale3d(0.5, 0.5, 0.5);
   }
 }
+
+/* Chevron 2 starts */
+
+
 .chevron2 {
   position: absolute;
   width: 20px;
@@ -207,12 +287,15 @@ table, th, td {
   transform: scale3d(0.5, 0.5, 0.5);
   animation: move2 3s ease-out infinite;
 }
+
 .chevron2:first-child {
   animation: move2 3s ease-out 1s infinite;
 }
+
 .chevron2:nth-child(2) {
   animation: move2 3s ease-out 2s infinite;
 }
+
 .chevron2:before,
 .chevron2:after {
   content: ' ';
@@ -222,18 +305,22 @@ table, th, td {
   width: 51%;
   background: #979797;
 }
+
 .chevron2:before {
   left: 0;
   transform: skew(0deg, -30deg);
 }
+
 .chevron2:after {
   right: 0;
   width: 50%;
   transform: skew(0deg, 30deg);
 }
+
 @keyframes move2 {
   25% {
     opacity: 1;
+
   }
   33% {
     opacity: 1;
@@ -248,45 +335,61 @@ table, th, td {
     transform: translateY(-55px) scale3d(0.5, 0.5, 0.5);
   }
 }
+
+/* Scroll container chevron styling and functioning ends */
+
 .exptitle {
   font-size: 40px;
 }
+
 .exptitle u{
   text-decoration: none;
   border-bottom:2px solid green;
   padding-bottom:2px;
 }
+
 .expname {  
   color: steelblue;
   font-size: 37px; 
   margin-bottom: 20px! important;
   line-height: 70px;
 }
+
 .exppos {
   color: #9a5e5e;
   font-size: 20px; 
   margin-bottom: 7px! important; 
 }
+
+
 .expdate {
   font-size: 15px; 
   margin-bottom: 3px! important; 
   color: #201f1f;
 }
+
 .explocation {
   font-size: 14.5px; 
+  
   color: #201f1f;
 }
+
 .projecttitle {
   font-size: 20px;
 }
+
 .projectlistcontent {
   font-size: 16px;
   padding-left: 5%;
 }
+
 .projectlistcontent ul {
  list-style: none;
 }
+
+
 .projectlistcontent ul li::before {
+
   list-style: none;
   content: "•";
   color: #201f1f;
@@ -297,120 +400,157 @@ table, th, td {
   text-align: center;
   font-size: 14px;
   padding-top: 30px! important;
+  
 }
+
+
+
 .projectdescription {
 padding-top: 30px;
 font-size: 16px;
 line-height: 25px;
 letter-spacing: 0.2px;
 }
+
 .notemain {
 padding-top: 30px;
 }
+
 .notetitle {
   font-size: 24px;
   color: #000;
   margin-bottom: 3px !important;
   font-weight: 500;
 }
+
 .notetitle p {
   font-weight: 500;
 }
+
 .notetitle a {
   color: black;
   font-weight: 500;
 }
+
 .notetitle a:hover {
   font-weight: 500;
   color: #db0042;
+  /* height: 0px; */
   background: #413f3f;
+  /* bottom: -2px; */
   -webkit-transition: all .15s ease-in; 
   transition: all .15s ease-in;
   }
+
 .notemoral {
   font-size: 19px;
   color: #201f1f;
   margin-bottom: 3px !important;
 }
+
 .notebrief {
 font-size: 17px;
 color: #413f3f;
 margin-bottom: 80px !important;
 }
+
+
 .notebrief span{
   font-size: 15px;
   padding-left: 3px;
 }
+
 .notebrief span a{
   color:green; 
   font-size: 15px;
   padding-left: 3px;
 }
+
 .notebrief span a:hover{
+  /* height: 0px; */
   color: #db0042;
 }
+
 .notecategorytitle {
   font-size: 30px;
 }
+
 .notecategorytitle span {
   font-size: 15px;
   float: right;
   padding-top: 5px;
 }
+
 .notecategorytitle a {
   color: black;
 }
+
 .notecategorytitle span a {
   color: green;
 }
+
 .notecategorytitle a:hover {
   color: #db0042;
 }
+
 .paddinghundred { 
   padding-bottom: 150px; 
 }
+
 .paddingfifty { 
   padding-bottom: 50px; 
 }
+
 .favouritesnoteauthor {
   font-size: 15px;
   margin-bottom: 2px !important;
 }
+
 .favouritesnoteauthor a{
   margin-bottom: 3px !important;
   color: #5252e2;
 }
+
 .personalcolor {
   color: #413f3f;
 }
+
 .personalcolor strong {
   color: black;
 }
+
 .tableclassintro table{
     table-layout: fixed ;
     width: 100% ;
     padding-bottom: 40px;  
 }
+
 .tableclassintro th{
 font-size: 14px! important;  
 }
+
 .tableclassintrofront td{
   width: 25% ;
 }
+
 .tableclassintro caption{
   padding-bottom: 20px;  
   }
+
 .tableclassintrodesign td{
   width: 25%;
 }
 .classheadingintrocontent {
 line-height: 50px;
 }
+
+
 .classheadingintrocontent u{
   text-decoration: none;
   border-bottom:2px solid green;
   padding-bottom:2px;
 }
+
 .introcontentexp {
   color: #201f1f;
   padding-left: 30%;
@@ -418,110 +558,150 @@ line-height: 50px;
   padding-top: 70px;
   line-height: 40px;
   font-size: 20px;
+  /* Test comment */
 }
+
 .introcontentexp p {
   margin-bottom: 30px;
 }
+
 .menuposition {
   padding: 2.5%;
+  
 } 
+
 .listhover {
   position: absolute;
   margin-bottom: 30px;
 }
+
 .listhover #navlist {
   display: none;
 }
+
+
 #navlist li{
   list-style: none;
   font-size: 18px;
   line-height: 50px;
   padding-left: 5px;
   border-right-color: black;
+ 
 }
+
 #navlist ul li::before {
 content: "";
 color: red;
 }
+
 .listhover:hover #navlist {
   display: block;
   background-color: rgb(249,248,241, 1);
 }
+
 .listhover:active #navlist {
   display: block;
 }
+
 .listhover h1{
   color: #444444;
   font-size: 25px;
 }
+
+
 .listhover #sitetitlediv {
   display: none;
 }
+
 #sitetitlediv {
   color: green;
   padding-left: 5px;
   font-size: 20px;
   font-family: 'myfontlight', -apple-system, BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
 }
+
 .listhover:hover #sitetitlediv {
   display: inline;
 }
+
 .listhover:active #sitetitlediv {
   display: inline;
 }
+
 .listhover:hover ~ .introhead {
   opacity: 0.2;
 }
+
 .listhover:active .introhead {
   opacity: 0.2 !important;
 }
+
+/* Footer nav css  */
+
 .footer-wrapper {
+
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 2%;
     padding-bottom: 4%;
+    
   }
+  
 .footer-wrapper hr{
   padding-bottom: 5%;
   }
+  
 .paddingfoot {
       padding-left: 5%;
       padding-right: 5%;
   }
+  
+  
 .row {
     display: flex;
     flex-direction: row;
     width: 100%;
   }
+  
 .footercolumn {
     display: flex;
     flex-direction: column;
     flex-basis: 100%;
   }
+  
 .footer-first-column {
     padding-top:2%;
     text-align: left;
     font-size: 16px;
   }
+  
 .footer-second-column {
     text-align: center;
     padding-top:2%;
     font-size: 16;
+  
   }
+  
 .footer-second-column span {
       padding-right: 8%;
   }
+  
 .footer-third-column {
     text-align: right;
     padding-top:2%;
     font-size: 15px;
     color: #413f3f;
   }
+  
+
+
+
 .notepage {
   padding-left: 30%;
   padding-right: 30%;
   padding-top: 10%;
 }
+
 .notepagecontent {
   line-height: 40px;
   word-spacing: 5px;
@@ -529,48 +709,70 @@ color: red;
   padding-bottom: 50px;
   padding-top: 20px;
 }
+
 .notepagecontent p{
   padding-top: 60px!important;
 }
+
+
+
 .relatednotes {
   font-size: 20px;
   padding-bottom: 75px;
 }
+
 .relatednotes ul li {
+
 padding-bottom: 30px;  
+
 }
+
 .relatednotes ul li::before {
   color: #413f3f;
   }
+
 .relatednoteheading {
   padding-top: 50px;
   font-size: 30px;
   font-weight: 500;
   padding-bottom: 50px;
 }
+
 .noteheading {
   font-size: 24px;
   line-height: 50px;
   font-weight: 700;
   padding-bottom: 10px;
+
 }
+
+
+
 .notepagemoral {
   font-size: 20px;
   color: #201f1f;
   line-height: 40px;
   padding-bottom: 10px;
+
 }
+
 .notedatetext {
   padding-bottom: 25px;
 }
+
 .descriptionbookshelfcontent {
   padding-top: 50px;
 }
+
+
+
 .bookscontent ul li{
   list-style: none; 
   font-size: 15px;
 }
+
 .bookscontent ul li::before {
+  /* content: none; */
   content: "•";
   color:#413f3f;
   display: inline-block; 
@@ -579,20 +781,40 @@ padding-bottom: 30px;
   line-height: 35px;
   list-style: none;
   } 
+
 .bookdescriptiontext {
   font-size: 15px;
   line-height: 40px;
 }
+
+
 .blogpagetitle {
+
  font-size: 45px;
  font-weight: 700;
+ /* padding-bottom: 75px; */
+
 }
+
 .losttitle {
   font-size : 30px;
 }
+
+
 .ulstylingjourney ul{
   list-style: none; 
 }
+
+
+
+/* .ulstylingjourney ul li::before{
+content: "•"; 
+color: red;
+display: inline-block; 
+width: 1em;
+}  */
+
+
 .ulstylingjourney ul li::before {
   list-style: none;
     content: "•";
@@ -600,15 +822,40 @@ padding-bottom: 30px;
     display: inline-block;
     width: 1em;
 }
+
+
+
 .introcontentworkpadding
 {
   padding-left: 5%;
   padding-right: 5%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media query small screen queries mobile responsive queries starting  */
+
+
 @media (min-width: 220px) and (max-width: 767px) {
+
+
 img {
   height: 150px;
 }
+
+
 .introcontent {
   color: #201f1f;
   padding-left: 12% !important;
@@ -617,85 +864,119 @@ img {
   line-height: 40px;
   font-size: 17px;
 }
+
 .introheadmain {
+
   text-align: center;
   font-size: 20px! important;
   padding-top: 40%;
   padding-left: 12%;
   padding-right: 12%;
+
 }
+
 .introheadcontent  {
   color: green;
   text-align: center;
   font-size: 13px! important;
   padding-bottom: 13%;
 }
+
 .sociallinks span{
   color: #000 !important;
   margin-bottom: 30px;
   font-size: 17px! important;
   padding-right: 10px;
+
 }
+
 .tableclassintro th{
   font-size: 8px! important;  
   }
+
 .myphoto {
   padding-left: 12% !important;
   padding-right: 12% !important;
+  
 }
+
 .row {
   flex-wrap: wrap;
   flex-direction: column;
 }
+
+
 .footercolumn {
 flex: 1;
 }
+
 .footer-first-column {
 text-align: center; 
 padding-top: 30px;
 }
+
 .footer-second-column {
 text-align: center; 
 padding-top: 30px;
 }
+
 .footer-second-column span{
 padding-right: 8%;
 }
+
 .footer-third-column {
 text-align: center; 
 padding-top: 10px;
 font-size: 14px;
 }
+
 .menuposition {
   padding: 7%;
 } 
+
 .notecategorytitle {
   font-size: 25px;
 }
+
 .notecategorytitle span {
   font-size: 10px;
 }
+
 .introcontentexp {
   padding-left: 12%;
   padding-right: 12%;
 }
+
 .notepage {
   padding-left: 12%;
   padding-right: 12%;
   padding-top: 10%;
 }
+
 .blogpage {
 padding-left: 12%;
 padding-right: 12%;
 padding-top: 10%;
 }
+
+
 .introcontentworkpadding
 {
   padding-left: 0%;
   padding-right: 0%;
 }
+
 }
+
+
+
+
+
+
+/* Media queries for tablets and ipad  */
+
 @media (min-width: 768px) and (max-width: 801px) {
+
   .introcontent {
     color: #201f1f;
     padding-left: 12% !important;
@@ -704,84 +985,114 @@ padding-top: 10%;
     line-height: 40px;
     font-size: 20px;
   }
+
   img {
     height: 250px;
   }
+  
+  
+
+  
   .introheadmain {
+  
     text-align: center;
     font-size: 35px! important;
     padding-top: 25%;
     padding-left: 12%;
     padding-right: 12%;
+  
   }
+  
   .introheadcontent  {
     color: green;
     text-align: center;
     font-size: 18px! important;
     padding-bottom: 13%;
   }
+  
   .sociallinks span{
     color: #000 !important;
     margin-bottom: 30px;
     font-size: 20px! important;
     padding-right: 10px;
+  
   }
+  
   .tableclassintro th{
     font-size: 12px! important;  
     }
+  
   .myphoto {
     padding-left: 12% !important;
     padding-right: 12% !important;
+    
   }
+  
   .row {
     flex-wrap: wrap;
     flex-direction: column;
   }
+  
+  
   .footercolumn {
   flex: 1;
   }
+  
   .footer-first-column {
   text-align: center; 
   padding-top: 30px;
   }
+  
   .footer-second-column {
   text-align: center; 
   padding-top: 30px;
   }
+  
   .footer-second-column span{
   padding-right: 8%;
   }
+  
   .footer-third-column {
   text-align: center; 
   padding-top: 10px;
   font-size: 14px;
   }
+  
   .menuposition {
     padding: 7%;
   } 
+  
   .notecategorytitle {
     font-size: 25px;
   }
+  
   .notecategorytitle span {
     font-size: 10px;
   }
+  
   .introcontentexp {
     padding-left: 12%;
     padding-right: 12%;
   }
+  
   .notepage {
     padding-left: 12%;
     padding-right: 12%;
     padding-top: 10%;
   }
+  
   .blogpage {
   padding-left: 12%;
   padding-right: 12%;
   padding-top: 10%;
   }
+  
   .introcontentworkpadding
 {
   padding-left: 5%;
   padding-right: 5%;
 }
+  
+
+  
 }
