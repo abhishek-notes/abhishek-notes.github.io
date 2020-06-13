@@ -33,10 +33,10 @@
         window.dataLayer = window.dataLayer || [];
 
         function gtag() {
-            dataLayer.push(arguments);
+            dataLayer.push( arguments );
         }
-        gtag('js', new Date());
-        gtag('config', 'UA-149843961-2');
+        gtag( 'js', new Date() );
+        gtag( 'config', 'UA-149843961-2' );
 
     </script>
 
@@ -51,15 +51,15 @@
 </body>
 <script>
 
-    document.getElementById("coin-button").addEventListener("click", function () {
+    document.getElementById( "coin-button" ).addEventListener( "click", function () {
         var textArray = [
             'Heads',
             'Tails'
         ]
-        let randomIndex = Math.floor(Math.random() * textArray.length);
-        let randomElement = textArray[randomIndex];
-        alert(randomElement);
-    });
+        let randomIndex = Math.floor( Math.random() * textArray.length );
+        let randomElement = textArray[ randomIndex ];
+        alert( randomElement );
+    } );
 
 </script>
 
