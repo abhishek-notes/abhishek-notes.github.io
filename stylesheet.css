@@ -16,7 +16,6 @@
   src: url('fonts/thefont/thefont-regular.woff');
 }
 
-
 @font-face {
   font-family: 'myfontlight';
   font-weight: 500;
@@ -38,8 +37,6 @@
   src: url('fonts/thefont/thefont-black.woff');
 }
 
-
-
 @font-face {
     font-family: 'Manrope';
     src: url('fonts/Manrope/manrope-medium.woff');
@@ -47,7 +44,6 @@
 
 @font-face {
   font-family: 'myfontlight';
-  /* font-weight: 300; */
   font-style: italic;
   src: url('fonts/Manrope/Manrope-ExtraLight.woff2');
 }
@@ -73,9 +69,7 @@
   src: url('fonts/thefont/thefont-blackitalic.woff');
 }
 
-
-
-/* Fonts addition complete */
+/* Fonts complete */
 
 /* Body and universal tags styling */
 
@@ -91,17 +85,10 @@ strong {
   font-weight: 700;
 }
 
-/* italic {
-  font-style: italic;
-  font-weight: 300;
-  text-align: center;
-}  */
-
 h1 {
   color:green;
    font-family: 'Manrope'; 
 }
-
 
 a {
     text-decoration: none;
@@ -115,27 +102,12 @@ a:link {
 }
 
 a:hover {
-    /* display: inline-block; */
-    /* height: 0px; */
-    /* background: none; */
+   
     color: #db0042;
     background: #413f3f;
-    /* bottom: -2px; */
     -webkit-transition: all .15s ease-in; 
     transition: all .15s ease-in;
     }
-
-/* ul {
-         list-style: none; 
-         
-    }
-ul li::before {
-    content: "•"; 
-    color: red;
-    display: inline-block; 
-    width: 1em;
-    
-    } */
 
 table, th, td {
       border: 1px solid black;
@@ -144,14 +116,12 @@ table, th, td {
       padding-top: 12px;
       padding-bottom: 12px; 
       text-align: center;
-    
     } 
 
 .introhead {
     font-weight: 300;
     text-align: center;
   }
-
 
 .introheadmain {
   text-align: center;
@@ -171,7 +141,6 @@ table, th, td {
   padding-right: 10px;
 }
 
-
 .introcontent {
     color: #201f1f;
     padding-left: 25%;
@@ -189,7 +158,6 @@ table, th, td {
     height: 300px; 
   }
   
-
 .myphoto {
     display: block;
     height: 200px;
@@ -209,7 +177,6 @@ table, th, td {
       color: green! important;
   }
 
-
 #footer {
   padding-top: 5%;  
 }
@@ -224,7 +191,6 @@ table, th, td {
   height: 100%; 
   padding-top: 75px;
   padding-bottom: 75px;
-
 }
 
 .chevron {
@@ -285,7 +251,6 @@ table, th, td {
 }
 
 /* Chevron 2 starts */
-
 
 .chevron2 {
   position: absolute;
@@ -369,7 +334,6 @@ table, th, td {
   margin-bottom: 7px! important; 
 }
 
-
 .expdate {
   font-size: 15px; 
   margin-bottom: 3px! important; 
@@ -395,7 +359,6 @@ table, th, td {
  list-style: none;
 }
 
-
 .projectlistcontent ul li::before {
 
   list-style: none;
@@ -410,8 +373,6 @@ table, th, td {
   padding-top: 30px! important;
   
 }
-
-
 
 .projectdescription {
 padding-top: 30px;
@@ -443,9 +404,7 @@ padding-top: 30px;
 .notetitle a:hover {
   font-weight: 500;
   color: #db0042;
-  /* height: 0px; */
   background: #413f3f;
-  /* bottom: -2px; */
   -webkit-transition: all .15s ease-in; 
   transition: all .15s ease-in;
   }
@@ -462,7 +421,6 @@ color: #413f3f;
 margin-bottom: 80px !important;
 }
 
-
 .notebrief span{
   font-size: 15px;
   padding-left: 3px;
@@ -475,7 +433,6 @@ margin-bottom: 80px !important;
 }
 
 .notebrief span a:hover{
-  /* height: 0px; */
   color: #db0042;
 }
 
@@ -552,7 +509,6 @@ font-size: 14px! important;
 line-height: 50px;
 }
 
-
 .classheadingintrocontent u{
   text-decoration: none;
   border-bottom:2px solid green;
@@ -566,7 +522,6 @@ line-height: 50px;
   padding-top: 70px;
   line-height: 40px;
   font-size: 20px;
-  /* Test comment */
 }
 
 .introcontentexp p {
@@ -586,7 +541,6 @@ line-height: 50px;
 .listhover #navlist {
   display: none;
 }
-
 
 #navlist li{
   list-style: none;
@@ -615,7 +569,6 @@ color: red;
   color: #444444;
   font-size: 25px;
 }
-
 
 .listhover #sitetitlediv {
   display: none;
@@ -664,7 +617,6 @@ color: red;
       padding-right: 5%;
   }
   
-  
 .row {
     display: flex;
     flex-direction: row;
@@ -701,9 +653,6 @@ color: red;
     color: #413f3f;
   }
   
-
-
-
 .notepage {
   padding-left: 30%;
   padding-right: 30%;
@@ -721,8 +670,6 @@ color: red;
 .notepagecontent p{
   padding-top: 60px!important;
 }
-
-
 
 .relatednotes {
   font-size: 20px;
@@ -754,8 +701,6 @@ padding-bottom: 30px;
 
 }
 
-
-
 .notepagemoral {
   font-size: 20px;
   color: #201f1f;
@@ -772,15 +717,12 @@ padding-bottom: 30px;
   padding-top: 50px;
 }
 
-
-
 .bookscontent ul li{
   list-style: none; 
   font-size: 15px;
 }
 
 .bookscontent ul li::before {
-  /* content: none; */
   content: "•";
   color:#413f3f;
   display: inline-block; 
@@ -795,12 +737,10 @@ padding-bottom: 30px;
   line-height: 40px;
 }
 
-
 .blogpagetitle {
 
  font-size: 45px;
  font-weight: 700;
- /* padding-bottom: 75px; */
 
 }
 
@@ -808,20 +748,9 @@ padding-bottom: 30px;
   font-size : 30px;
 }
 
-
 .ulstylingjourney ul{
   list-style: none; 
 }
-
-
-
-/* .ulstylingjourney ul li::before{
-content: "•"; 
-color: red;
-display: inline-block; 
-width: 1em;
-}  */
-
 
 .ulstylingjourney ul li::before {
   list-style: none;
@@ -831,38 +760,19 @@ width: 1em;
     width: 1em;
 }
 
-
-
 .introcontentworkpadding
 {
   padding-left: 5%;
   padding-right: 5%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Media query small screen queries mobile responsive queries starting  */
 
-
 @media (min-width: 220px) and (max-width: 767px) {
-
 
 img {
   height: 150px;
 }
-
 
 .introcontent {
   color: #201f1f;
@@ -912,7 +822,6 @@ img {
   flex-wrap: wrap;
   flex-direction: column;
 }
-
 
 .footercolumn {
 flex: 1;
@@ -967,7 +876,6 @@ padding-right: 12%;
 padding-top: 10%;
 }
 
-
 .introcontentworkpadding
 {
   padding-left: 0%;
@@ -975,11 +883,6 @@ padding-top: 10%;
 }
 
 }
-
-
-
-
-
 
 /* Media queries for tablets and ipad  */
 
@@ -997,9 +900,6 @@ padding-top: 10%;
   img {
     height: 250px;
   }
-  
-  
-
   
   .introheadmain {
   
@@ -1040,7 +940,6 @@ padding-top: 10%;
     flex-wrap: wrap;
     flex-direction: column;
   }
-  
   
   .footercolumn {
   flex: 1;
@@ -1100,7 +999,5 @@ padding-top: 10%;
   padding-left: 5%;
   padding-right: 5%;
 }
-  
-
   
 }
