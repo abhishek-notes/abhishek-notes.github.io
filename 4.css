@@ -1,0 +1,81 @@
+.container {
+    max-width: 100%! important;
+    /* height: 100vh; */
+}
+
+.img-fluid {
+    vertical-align: middle;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    /* height: 100vh; */
+    /* margin-right: -15px;
+    margin-left: -15px; */
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.images-row {
+    background-color: #EFF2F5;
+}
+
+.images-row .img {
+    height: 50px!important;
+    width: 50px! important;
+}
+
+.testi-image {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.form-centering {
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    text-align: center;
+}
+
+.carousel-item .img-fluid {
+    width: 100%;
+    height: 90vh;
+}
+
+.carousel-item .txt {
+    background-color: black;
+    opacity: 0.6;
+    font-size: 43px;
+}
+
+/* .my-custom-area .row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.my-custom-area .row>.col {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.home-image {
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+}
+
+.col-md-6 {
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+} */
+
+/* .img-fluid {
+    max-width: 100%;
+    width: 100%;
+ height: auto;
+padding-right: 0px ! important;
+padding-left: 0px! important;
+} */
