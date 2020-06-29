@@ -3,6 +3,15 @@
     /* height: 100vh; */
 }
 
+.serv-cont {
+    height: 95vh;
+}
+
+.contact-sect {
+    background-color: steelblue;
+    color: white;
+}
+
 .img-fluid {
     vertical-align: middle;
 }
@@ -20,7 +29,12 @@
 }
 
 .images-row {
-    background-color: #EFF2F5;
+    /* background-color: #EFF2F5; */
+}
+
+.img-h100 {
+    /* height: 200px;
+    width: 200px; */
 }
 
 .images-row .img {
@@ -34,11 +48,31 @@
     border-radius: 50%;
 }
 
-.form-centering {
+.testi-padd {
+    /* padding-left: 15%;
+    padd-right: 15%; */
+}
+
+.about-row-home {
+    background-color: slateblue;
+    color: white;
+}
+
+/* .form-centering {
     align-items: center;
     align-content: center;
     align-self: center;
     text-align: center;
+} */
+
+.form-row-width {}
+
+.form-group {
+    width: 320px;
+}
+
+.testimonials {
+    background-color: yellow;
 }
 
 .carousel-item .img-fluid {
@@ -46,10 +80,28 @@
     height: 90vh;
 }
 
+.carousel-caption {
+    position: absolute;
+    text-align: center;
+    height: 60vh;
+}
+
 .carousel-item .txt {
     background-color: black;
     opacity: 0.6;
     font-size: 43px;
+}
+
+.new-studio-bg {
+    background-color: #f9f9f9;
+}
+
+.line-height-head-serv {
+    line-height: 1.5;
+}
+
+.foot-sect {
+    background-color: powderblue;
 }
 
 /* .my-custom-area .row {
