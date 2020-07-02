@@ -1,7 +1,7 @@
 .body {
     /* Hide scrollbars */
     overflow: hidden;
-    max-width: 100%;
+    max-width: 100vh;
     margin: 0;
     padding: 0;
     border: 0;
@@ -31,10 +31,12 @@
     height: 70vh;
 }
 
-.hero-text {
-    position: absolute;
-    text-align: center;
-    height: 20vh;
+.carousel-caption h2 {}
+
+.carousel-caption h5 {
+    padding-top: 2%;
+    padding-bottom: 1%;
+    font-weight: 300;
 }
 
 /* Hero Code */
@@ -241,6 +243,14 @@ footer ul li {
         padding-right: 15% ! important;
         padding-left: 15% !important;
     }
+    .carousel-caption h2 {
+        font-size: 29px;
+    }
+    .carousel-caption h5 {
+        padding-top: 2%;
+        font-size: 23px;
+        font-weight: 300;
+    }
 }
 
 /* start of medium tablet styles */
@@ -258,17 +268,49 @@ footer ul li {
         padding-right: 10% ! important;
         padding-left: 10% !important;
     }
-    /* start of phone styles */
-    /* It's possible to hide the image if the screen becomes too small */
-    @media screen and (max-width: 479px) {
-        .rem-pad .img-fluid {
-            width: 100% !important;
-            max-height: 50vh;
-            height: auto;
-        }
-        .about-text {
-            font-size: 15px;
-            padding-right: 10% ! important;
-            padding-left: 10% !important;
-        }
+    .carousel-caption h2 {
+        font-size: 24px;
     }
+    .carousel-caption h5 {
+        padding-top: 2%;
+        font-size: 17px;
+        font-weight: 300;
+    }
+    .good-container h1 {
+        font-size: 30px;
+    }
+    .adress li {
+        padding-right: 5%;
+    }
+}
+
+/* start of phone styles */
+
+/* It's possible to hide the image if the screen becomes too small */
+
+@media screen and (max-width: 479px) {
+    .rem-pad .img-fluid {
+        width: 100% !important;
+        max-height: 50vh;
+        height: auto;
+    }
+    .about-text {
+        font-size: 15px;
+        padding-right: 10% ! important;
+        padding-left: 10% !important;
+    }
+    .carousel-caption h2 {
+        font-size: 18px;
+    }
+    .carousel-caption h5 {
+        font-size: 15px;
+        font-weight: 300;
+        padding-top: 2%;
+    }
+    .good-container h1 {
+        font-size: 25px;
+    }
+    .adress li {
+        padding-right: 5%;
+    }
+}
