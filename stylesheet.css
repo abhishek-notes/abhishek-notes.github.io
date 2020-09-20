@@ -323,7 +323,7 @@ table, th, td {
 }
 
 .expname-green {
-  color: green;
+  color: green!important;
 }
 
 .exppos {
