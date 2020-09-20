@@ -151,9 +151,9 @@ table, th, td {
   margin-bottom: 30px;
 }
 
-img {
+/* img {
   height: 300px;
-}
+} */
 
 .myphoto {
   display: block;
@@ -320,6 +320,10 @@ img {
   font-size: 37px;
   margin-bottom: 20px! important;
   line-height: 70px;
+}
+
+.expname-green {
+  color: green;
 }
 
 .exppos {
